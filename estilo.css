@@ -4,14 +4,15 @@
 
 body{
     border:2px blue solid;
-    max-width: 90%;
+    max-width: 80%;
     margin: 0px auto;
     background-image: url(imagens/fundo.png);
     padding-top:20px;
 }
 
-.link{
-    text-align: left;    
+.flex-container{
+    float:right;
+    padding-top:20px;
 }
 
 p{
@@ -19,5 +20,7 @@ p{
 }
 
 #img-capa{
+    margin: auto;
     padding-top: 20px;
+    max-width: 800px;
 }
