@@ -1,8 +1,11 @@
-*{
+/**{
     margin-left:50px;
-}
+}*/
+
 body{
     border:2px blue solid;
     max-width: 90%;
-    margin: 0 auto;
+    margin: 0px auto;
+    background-image: url(imagens/fundo.png);
+    padding-top:20px;
 }
