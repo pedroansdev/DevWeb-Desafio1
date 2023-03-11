@@ -1,15 +1,4 @@
-/**{
-    margin-left:50px;
-}*/
-
-#img-fundoHome{
-    border:2px blue solid;
-    max-width: 80%;
-    margin: 0px auto;
-    background-image: url(imagens/fundo.png);
-    padding-top:20px;
-}
-
+/* Configuração de tags */
 footer{
     text-align: center;
 }
@@ -17,12 +6,12 @@ footer{
 p{
     text-align: justify;
 }
-
+/* Configuração de classes */
 .flex-container{
     float:right;
     padding-top:20px;
 }
-
+/* Configurações a partir de IDs */
 #img-capa{
     margin: auto;
     padding-top: 20px;
@@ -30,9 +19,15 @@ p{
 }
 
 #img-fundo2{
-    border:2px blue solid;
     max-width: 80%;
     margin: 0px auto;
     background-image: url(imagens/fundo2.png);
+    padding-top:20px;
+}
+
+#img-fundoHome{
+    max-width: 80%;
+    margin: 0px auto;
+    background-image: url(imagens/fundo.png);
     padding-top:20px;
 }
