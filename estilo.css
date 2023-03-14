@@ -14,8 +14,12 @@ p{
 /* Configurações a partir de IDs */
 #img-capa{
     margin: auto;
-    padding-top: 20px;
+    padding-top: 22px;
     max-width: 800px;
+}
+
+#img-capa img{
+    max-width:120%;
 }
 
 #img-fundo2{
@@ -26,7 +30,7 @@ p{
 }
 
 #img-fundoHome{
-    max-width: 80%;
+    max-width: 70%;
     margin: 0px auto;
     background-image: url(imagens/fundo.png);
     padding-top:20px;
