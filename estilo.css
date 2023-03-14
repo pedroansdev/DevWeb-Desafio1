@@ -19,18 +19,19 @@ p{
 }
 
 #img-capa img{
+    padding-top:2px;
     max-width:120%;
 }
 
 #img-fundo2{
-    max-width: 80%;
+    max-width: 60%;
     margin: 0px auto;
     background-image: url(imagens/fundo2.png);
     padding-top:20px;
 }
 
 #img-fundoHome{
-    max-width: 70%;
+    max-width: 60%;
     margin: 0px auto;
     background-image: url(imagens/fundo.png);
     padding-top:20px;
