@@ -11,28 +11,31 @@ p{
     float:right;
     padding-top:20px;
 }
-/* Configurações a partir de IDs */
-#img-capa{
+
+.conteudo{
+    width: 80%;
     margin: auto;
-    padding-top: 22px;
-    max-width: 800px;
+}
+
+/* Configurações a partir de IDs */
+
+#header{
+    border-top: 6px solid;
+    border-color: #6D78A8;
+}
+
+#header .conteudo{
+    padding-top: 10px;
+}
+
+#img-capa{
+    margin-top: 10px;
+    width: 100%;
+    background-color: #EFEFEF;
+    text-align: center;
 }
 
 #img-capa img{
     padding-top:2px;
-    max-width:120%;
-}
-
-#img-fundo2{
-    max-width: 60%;
-    margin: 0px auto;
-    background-image: url(imagens/fundo2.png);
-    padding-top:20px;
-}
-
-#img-fundoHome{
-    max-width: 60%;
-    margin: 0px auto;
-    background-image: url(imagens/fundo.png);
-    padding-top:20px;
+    width:70%;
 }
